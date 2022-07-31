@@ -1,0 +1,14 @@
+git --version
+git status : To get status of git
+git init : initialize the git repo
+
+U - Untracked
+M - Modified
+A - Indexed file (In staging area)
+
+git add filename.ext          - staging area
+git add .                     - all files to sating area
+git rm --cached filename.txt  - to remove (unstage) a file
+
+git commit -m 'message' filename.ext       - commit single file
+git commit . -m 'message'                 - commit all files
