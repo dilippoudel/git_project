@@ -17,5 +17,5 @@ git commit . -m 'message'                 - commit all files
 git branch                                  - check the current branch
 git branch branchname                      - to create new branch
 git checkout branchname                    - to switch to new branch
-
+git checkout -b branchname                  - create and switch simultaneously if the branch does not                                           exist already
 git log                                    - check log of commit
